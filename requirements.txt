@@ -1,0 +1,14 @@
+# Python 3.13 was used for every experiment; JAX runs on CPU and, where available, GPU.
+#
+#   python -m venv .venv
+#   .venv/Scripts/python.exe -m pip install -r requirements.txt      (Windows)
+#   .venv/bin/python -m pip install -r requirements.txt              (Linux / macOS)
+#
+# For an NVIDIA GPU install jax with the CUDA extra instead of the two pinned lines
+# below, e.g.  pip install "jax[cuda12]==0.10.2"  (see https://docs.jax.dev).
+numpy>=2.0
+scipy>=1.14
+matplotlib>=3.8
+openpyxl>=3.1
+jax==0.10.2
+jaxlib==0.10.2
